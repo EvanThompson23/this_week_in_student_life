@@ -19,7 +19,7 @@ def print_to_file(dates, events_list): # Convert the file type to docx look at t
             add_hyperlink(p, event.Url, f"{event.Name} at {str(event.Dstart.strftime('%I:%M %p')).lstrip('0')} in {event.Location}")
 
    doc.save(f"This_Week_In_Student_Life_{dates.get_date_start()}.docx")
-   
+
 def add_hyperlink(paragraph, url, text):
 
    # This gets access to the document.xml.rels file and gets a new relation id value

@@ -17,7 +17,7 @@ class Selenium_Request:
          button.click() 
 
       return driver.find_elements(By.CSS_SELECTOR, "#event-discovery-list > div > div")
-   
+
    def __check_date__(driver, dates):
       events = driver.find_elements(By.CSS_SELECTOR, "#event-discovery-list > div > div")
       event = events[len(events)-1]
