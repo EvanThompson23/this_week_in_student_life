@@ -16,8 +16,6 @@ I tried multiple different ways to pull the information from the campus labs web
 - Pull photos and choose some at random to add
 
 ## Demos
-*Both demos are only were only given a minute for fairness.*
-
 **Written by hand**
 
 ![by_hand_twisl](https://github.com/user-attachments/assets/a8afa891-3f94-4081-b44b-2b84a74b79be)
